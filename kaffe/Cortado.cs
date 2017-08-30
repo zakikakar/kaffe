@@ -8,7 +8,7 @@ namespace kaffe
 {
     public class Cortado : Kaffe
     {
-        public override int pris()
+        public override int Pris()
         {
             return 25;
         }

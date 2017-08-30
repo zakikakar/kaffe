@@ -9,7 +9,7 @@ namespace kaffe
     public class SortKaffe : Kaffe
 
     {
-        public override int pris()
+        public override int Pris()
         {
             return 20;
         }

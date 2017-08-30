@@ -18,7 +18,7 @@ namespace kaffe.Tests
             var latte = new Latte();
 
             //Act
-            int pris = latte.pris();
+            int pris = latte.Pris();
 
             //assert
             Assert.AreEqual(40, pris);

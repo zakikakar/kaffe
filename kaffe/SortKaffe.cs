@@ -20,6 +20,7 @@ namespace kaffe
         }
 
         public SortKaffe()
+            :base()
         {
         }
 

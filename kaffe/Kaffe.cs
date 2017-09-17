@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace kaffe
 {
+    /// <summary>
+    /// Abstract klasse som alle kaffer nedarver fra
+    /// </summary>
     public abstract class Kaffe
     {
         public abstract int Pris();
         
+        /// <summary>
+        /// Angiver hvor stærk kaffe er. 
+        /// Sættes default til "stærk"
+        /// </summary>
+        /// <returns></returns>
         public virtual string Styrke()
         {
             return "stærk";
@@ -23,7 +31,7 @@ namespace kaffe
 
         public Kaffe()
         {
-            this.Rabat = 0;
+            //this.Rabat = 0;
         }
 
         public Kaffe(int rabat)

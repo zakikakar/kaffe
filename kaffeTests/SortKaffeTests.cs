@@ -33,5 +33,22 @@ namespace kaffe.Tests
             int pris = sortKaffe.Pris();
         }
 
+        /// <summary>
+        /// Rabatten skal være 0 når default ctor kaldes
+        /// </summary>
+        [TestMethod]
+        public void SortKaffeDefaultConstructorRabat()
+        {
+            //Arrange
+            var sortKaffe = new SortKaffe();
+
+            //Act
+            sortKaffe.Styrke();
+
+            //Assert
+            Assert.AreEqual(sortKaffe.Rabat, 0);
+
+        }
+
     }
 }

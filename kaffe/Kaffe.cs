@@ -29,6 +29,10 @@ namespace kaffe
         public int Rabat { get; set; }
 
 
+
+        /// <summary>
+        /// default ctor
+        /// </summary>
         public Kaffe()
         {
             //this.Rabat = 0;

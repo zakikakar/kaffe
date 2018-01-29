@@ -11,6 +11,11 @@ namespace kaffe
     /// </summary>
     public abstract class Kaffe
     {
+        /// <summary>
+        /// abstract metode der skal angive hvad kaffen koster.
+        /// Denne metode skal overrides i den klasse som arver fra klassen Kaffe
+        /// </summary>
+        /// <returns></returns>
         public abstract int Pris();
         
         /// <summary>

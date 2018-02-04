@@ -43,6 +43,10 @@ namespace kaffe
             //this.Rabat = 0;
         }
 
+        /// <summary>
+        /// constructor som tager en parameter 
+        /// </summary>
+        /// <param name="rabat">rabat poå denne kaffe</param>
         public Kaffe(int rabat)
         {
             this.Rabat = rabat;

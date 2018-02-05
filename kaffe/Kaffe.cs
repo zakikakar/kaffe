@@ -40,7 +40,7 @@ namespace kaffe
         /// </summary>
         public Kaffe()
         {
-            //this.Rabat = 0;
+            this.Rabat = 10;
         }
 
         public Kaffe(int rabat)
